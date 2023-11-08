@@ -42,8 +42,10 @@ Revisa que todo está bien navegando a la dirección `localhost:8000`.
 ### Preguntas
 
 ¿Qué pasa si cambias el valor de la variable PORT?
-¿Qué cambios debes hacer para cambier el port a 8080?
+R. En caso de cambiar el valor directamente en .env sin "bajar" el contenedor, no ocurre nada, en caso de volver a construir, no es posible llegar a la app.
 
+¿Qué cambios debes hacer para cambier el port a 8080?
+R. Debo cambiar en el archivo compose.yaml, ya que ahi esta definido el puerto que mapea de la maquina host con el contenedor, en dicho caso deberia cambiar ambos a 8080
 
 ## Paso 2
 
