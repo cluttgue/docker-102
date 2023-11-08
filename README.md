@@ -19,7 +19,7 @@ Cuando aparezca la pregunta `What is the command to run your app?`, escribe `pyt
 Abre el archivo `compose.yaml`, en la línea 16, debajo de la sección `ports` agrega estas líneas:
 
 ```
-    enviroment:
+    environment:
       - PORT
       - HOST
       - DB
@@ -27,7 +27,7 @@ Abre el archivo `compose.yaml`, en la línea 16, debajo de la sección `ports` a
       - DB_PASSWORD
 ```
 
-Asegurate que `ports` y `enviroment` estén alineados en la misma columna.
+Asegurate que `ports` y `environment` estén alineados en la misma columna.
 
 Revisa el archivo `.env`, configura las variables con los valores que usaste en el ejercicio en Replit (es decir, usa las credenciales de ElephantSQL).
 
