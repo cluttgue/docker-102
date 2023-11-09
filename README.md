@@ -75,19 +75,29 @@ Ejecuta `docker ps`.
 
 ¿Qué obtienes?.
 
+R. Listo los dockers que se encuentran en ejeución
+
 Ejecuta `docker images`. 
 
-¿Cuál es el tamaño de la imagen del servidor flask?
+¿Cuál es el tamaño de la imagen del servidor flask? 
+
+R. 159 MB
 
 ¿Cuál es el tamaño de la imagen postgres?
 
+R. 417 MB
+
 ¿Cuándo fueron creadas cada una de las imágenes?
+
+R. Diferentes según las últimas versiones
 
 Ahora ejecuta `docker compose logs -f`, esto te permite revisar el log de los contenedores.
 
 Si navegas hacia la aplicación (http://localhost:8000/) se produce un error, revisa el log.
 
 ¿Cuál es la causa del error?
+
+R. No encuentra la tabla books
 
 Cierra el log presionando `control-c`, luego detén la aplicación con este comando:
 
